@@ -1,0 +1,105 @@
+/* === Dark Cinematic Auth Theme === */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: radial-gradient(circle at top, #1a1a1d 0%, #0e0e10 100%);
+  color: #fff;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* --- Animated Background Overlay --- */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  right: 0; bottom: 0;
+  background: url("../uploads/auth-bg.jpg") center/cover no-repeat;
+  opacity: 0.2;
+  filter: blur(8px);
+  z-index: 0;
+}
+
+.auth-container {
+  position: relative;
+  z-index: 1;
+  width: 400px;
+  background: rgba(30, 30, 35, 0.8);
+  border: 1px solid rgba(255, 177, 0, 0.2);
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 0 30px rgba(255, 177, 0, 0.15);
+  backdrop-filter: blur(12px);
+}
+
+.auth-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffb100;
+  font-weight: 700;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 177, 0, 0.3);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+  transition: border 0.3s, background 0.3s;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #ffb100;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.btn {
+  width: 100%;
+  background: #ffb100;
+  color: #000;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #ffd75a;
+}
+
+.bottom-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.bottom-text a {
+  color: #ffb100;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.bottom-text a:hover {
+  text-decoration: underline;
+}

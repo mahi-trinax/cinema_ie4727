@@ -1,0 +1,59 @@
+body {
+  background: #0e0e10;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  padding: 30px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1, h2 {
+  color: #ffb100;
+}
+
+.form-card {
+  background: rgba(30, 30, 35, 0.8);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid rgba(255,177,0,0.3);
+  background: rgba(255,255,255,0.05);
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background: #ffb100;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th, table td {
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding: 10px;
+}
+
+.btn-delete {
+  color: #ff4d4d;
+  text-decoration: none;
+  font-size: 18px;
+}

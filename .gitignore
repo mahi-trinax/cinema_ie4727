@@ -1,0 +1,40 @@
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# PHP specific files and folders
+vendor/ # Composer dependencies
+composer.lock
+.env # Environment variables (sensitive data like database credentials)
+*.log
+/tmp/
+/cache/
+/uploads/ # User uploaded files
+error_log
+uploads/
+
+# Node.js specific files (if using JavaScript build tools)
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
+.parcel-cache/ # Parcel build cache
+.webpack/ # Webpack build cache
+/dist/ # Build output directory
+/build/ # Build output directory
+/coverage/ # Test coverage reports
+
+# MySQL specific files
+*.sql # Database dumps (if not explicitly intended for version control)
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Other temporary files
+*.tmp
+*.bak
