@@ -87,7 +87,7 @@ if (!empty($movies)) {
 
 // Fetch all movies for carousel (unique by movie_id)
 $tstmt = $conn->query("
-    SELECT DISTINCT m.movie_id, m.title, m.image, m.description
+    SELECT DISTINCT m.movie_id, m.title, m.image, m.description,  m.created_at
     FROM movies m
     INNER JOIN movie_timings mt ON mt.movie_id = m.movie_id
     ORDER BY m.created_at DESC
