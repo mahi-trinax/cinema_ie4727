@@ -198,6 +198,7 @@ nav a:hover{color:#fff;}
   <nav>
     <a href="home.php">Home</a>
     <a href="my_bookings.php">My Bookings</a>
+    <a href="about_us.php">About Us</a>
     <a href="../auth/logout.php">Logout</a>
   </nav>
   <div class="user-info">Hello, <?= htmlspecialchars($user_email) ?></div>

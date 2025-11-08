@@ -10,6 +10,7 @@ $user_email = $_SESSION['name'] ?? 'Guest';
   <nav>
     <a href="home.php">Home</a>
     <a href="my_bookings.php">My Bookings</a>
+    <a href="about_us.php">About Us</a>
     <a href="../auth/logout.php">Logout</a>
   </nav>
 
